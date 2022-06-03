@@ -149,14 +149,13 @@ h5{
     }
 
     .form{
-        width: 320px;
+        width: 95%;
         height: auto;
         background-color: #ffffff83;
         border: solid 2px var(--color3);
         padding: 20px;
         border-radius: 10px;
         position: relative;
-        margin-top: 30px;
     }
 
 
