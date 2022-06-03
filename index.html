@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pictures/ico/ico.png" type="image/x-icon">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="conteiner">
+        <!-- <h1 class="saudacoes">Iracema & Vanderson</h1> -->
+        <form method="POST" class="form">
+            <h1>Faça seu login</h1>
+            <label for="email">E-mail:</label>
+            <label for="email"><i><img class="email" src="./pictures/ico/e-mail.jpg"></i></label>
+            <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail">
+            <label for="password">Senha:</label>
+            <label for="password"><i><img class="password" src="./pictures/ico/password.png"></i></label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha" autocomplete="on">
+
+            <input type="button" value="Entrar" onclick="entrar()">
+            <a href="./html/cadastro.html"><input type="button" value="Cadastre-se"></a>
+
+            <!-- <h5><a href="#">Esqueci minha senha</a></h5> -->
+        </form>
+
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+        <script src="./javascript/login.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color0: #013120;
+    --color1: #ffffff;
+    --color2: #576e49;
+    --color3: #000000;
+    --color4: #ffcf95;
+}
+
+body{
+    background-color: var(--color4);
+}
+
+/* header */
+picture{
+    width: 100%;
+}
+/* fim header */
+
+/*história*/
+.historia{
+    max-width: 1000px;
+    background-color: var(--color2);
+    color: var(--color1);
+    margin-left: auto;
+    margin-right: 3%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.493);
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 1cm;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.foto-historia{
+    float: left;
+    margin-top: 0px;
+    margin-left: 30%;
+}
+
+.historia-dan{
+    max-width: 1000px;
+    background-color: var(--color2);
+    color: var(--color1);
+    margin-right: auto;
+    margin-left: 3%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.493);
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 1cm;
+}
+
+
+.foto-historia-dan{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30%;
+}
+
+
+@media screen and (max-width: 700px){
+    .historia{
+        max-width:400px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .historia-dan{
+        max-width:400px;
+        margin: auto;
+        text-align: center;
+        
+    }
+
+    .foto-historia{
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .foto-historia-dan{
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1500px){
+    .historia{
+        max-width:800px;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .historia-dan{
+        max-width:800px;
+        margin: auto;
+        text-align: justify;
+        
+    }
+
+    .foto-historia{
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .foto-historia-dan{
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+}

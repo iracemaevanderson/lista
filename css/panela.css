@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color0: #ffffff;
+    --color1: #000000;
+    --color2: #606c38;
+    --color3: #f0eeee;
+    --color4: #0e2b0d;
+
+}
+
+body{
+    background-color: var(--color2);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    position: relative;
+
+}
+
+.i_list{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--color0);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    background-color: var(--color3);
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid 1px var(--color1);
+}
+
+.squere{
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    border: solid 2px var(--color1);
+    border-radius: 10px;
+}
+.img{
+    text-align: center;
+    margin-top: 25%;
+    transform: translateY(-25%);
+}
+
+.itens{
+    max-width: 150px;
+}
+
+source{
+    width: 100%!important;
+
+}
+
+button{
+    width: 100%;
+    color: var(--color0);
+    background-color: var(--color1);
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--color2);
+    color: var(--color0);
+}
+
+h4{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+
+.conteiner_form{
+    width: 99.2vw;
+    height: 102%;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    top: -50px;
+}
+
+form{
+    width: 500px;
+    background-color: var(--color0);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 2px var(--color4);
+    padding: 5px;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: var(--color4);
+    color: var(--color0);
+    text-align: center;
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+@media screen and (max-width: 900px) {
+    .container{
+        margin: auto;
+        padding: 15px;
+        max-width: 100%;
+    }
+    .conteiner_form{
+        width: 100vw;
+
+    }
+
+    .squere{
+        width: 130px;
+        
+    }
+
+    .itens{
+        width: 100px;
+
+    }
+
+    .i_list{
+        font-size: 20px;
+
+    }
+}
