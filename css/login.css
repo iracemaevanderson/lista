@@ -18,7 +18,7 @@
 }
 
 body{
-    background-image: url('../pictures/pc.png');
+    background-image: url('../pictures/login/pc.png');
 
 /*     background-color: var(--color2);
     font-family: 'Ubuntu', sans-serif; */
@@ -130,15 +130,9 @@ h5{
 }
 
 
-
-@media screen and (max-width:1000px){
-    .saudacoes{
-        display: none;
-
-    }
-
+@media screen and (max-width:1400px){
     body{
-        background-image: url('../pictures/celular2.png');
+        background-image: url('../pictures/login/720.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -149,9 +143,14 @@ h5{
 
 }
 
-@media screen and (max-width:1400px){
+@media screen and (max-width:1000px){
+    .saudacoes{
+        display: none;
+
+    }
+
     body{
-        background-image: url('../pictures/720.png');
+        background-image: url('../pictures/login/celular2.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
