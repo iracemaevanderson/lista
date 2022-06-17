@@ -129,6 +129,8 @@ h5{
 
 }
 
+
+
 @media screen and (max-width:1000px){
     .saudacoes{
         display: none;
@@ -137,6 +139,19 @@ h5{
 
     body{
         background-image: url('../pictures/celular2.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    /*     background-color: var(--color2);
+        font-family: 'Ubuntu', sans-serif; */
+    }
+
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-image: url('../pictures/720.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -168,13 +183,6 @@ h5{
         padding: 20px;
         border-radius: 10px;
         position: relative;
-    }
-
-
-    .saudacoes{
-        top: 0px;
-        display: block;
-
     }
 
 }
