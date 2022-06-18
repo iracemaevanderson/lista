@@ -28,7 +28,6 @@ auth.signOut().then().catch((error)=>{
     console.log(error)
 })
 
-
 function entrar(){
 
     const userEmail = document.querySelector('#email').value

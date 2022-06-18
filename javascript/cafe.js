@@ -19,8 +19,6 @@ let itens =
  "Pasta termica-corsair", "Cabo HDMI", "Chave teste", "Mangueira",
 ]
 
-
-
 let conteiner = document.querySelector('.container')
 let form = document.querySelector('.conteiner_form')
 

@@ -18,7 +18,6 @@
 }
 
 body{
-    background-color: var(--color2);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -127,7 +126,6 @@ h5{
 
 }
 
-
 @media screen and (max-width:660px){
 
     .conteiner{
@@ -141,7 +139,7 @@ h5{
     }
 
     .form{
-        width: 95%;
+        width: 85%;
         height: auto;
         background-color: #ffffff83;
         border: solid 2px var(--color3);
