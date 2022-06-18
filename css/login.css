@@ -18,19 +18,8 @@
 }
 
 body{
-<<<<<<< Updated upstream
-=======
-    /* background-color: var(--color2); */
->>>>>>> Stashed changes
+    background-image: url('../pictures/login/pc.png');
     font-family: 'Ubuntu', sans-serif;
-}
-
-.saudacoes{
-    position: absolute;
-    top: 50px;
-    color: var(--color0);
-    font-family: 'Tapestry', cursive;
-    font-size: 50px;
 }
 
 h1{
