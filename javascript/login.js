@@ -14,11 +14,18 @@ let auth = firebase.auth()
 
 let body = document.querySelector('.body')
 
-if(window.screen.width >= 1920){
-    body.style.backgroundColor = "blue"
-}else{
-    body.style.backgroundColor = "red"
-
+if(window.screen.width >= 320 && window.screen.width < 1000){
+    body.style.backgroundImage = "url('../pictures/login/320.png')"
+    body.style.backgroundRepeat = "no-repeat"
+    body.style.backgroundSize = "cover"
+}else if(window.screen.width >= 1000 && window.screen.width < 1440){
+    body.style.backgroundImage = "url('../pictures/login/720.png')"
+    body.style.backgroundRepeat = "no-repeat"
+    body.style.backgroundSize = "cover"
+}else if(window.screen.width >= 1920){
+    body.style.backgroundImage = "url('../pictures/login/pc.png')"
+    body.style.backgroudRepeat = "no-repeat"
+    body.style.backgroundSize = "cover"
 }
 
 auth.signOut().then().catch((error)=>{
