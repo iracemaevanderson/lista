@@ -14,11 +14,9 @@ let auth = firebase.auth()
 
 
 let itens = 
-["Assadeira Redonda", "Assadeira Quadrada", "coador de café", "colher para sorvete", "Conj de bowls", "Conj de bowls Azul",
- "Conj colheres de servir","Conj de copos", "Conj de depósitos", "Conj de espátulas de silicone", "Conj de peneiras", "Conj de sobremesa",
- "Conj de sobremesa ", "Tapetes para banheiro", "Conj de toalhas", "Conj de toalhas ", "Conj de xícaras", "Conj de xícaras ", "Cuscuzeira",
- "Forma de pudim", "Formas de bolos", "Frigideira", "Panela de pressão", "Fruteira", "Mantegueira", "Porta vinagre e azeite", "Pratos brancos fundo",
- "Pratos brancos raso", "Pratos transparentes","Ralador inox","Sanduicheira", "Tapetes para banheiro",
+["Alicate RJ45", "Alicate de cerca viva", "Conjunto de Alicates de corte", "Martelo", "Conjunto de Chaves de Precisão",
+ "Conjunto de Chaves tipo L","Conjunto de Chaves combinadas", "Escada 3 degraus", "Extesão", "Ferro de soda", "Multímetro",
+ "Pasta termica-corsair", "Cabo HDMI", "Chave teste", "Mangueira",
 ]
 
 
@@ -43,7 +41,7 @@ itens.forEach((item)=>{
         })
     })
     squere.classList.add('squere')
-    squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/cha-de-panela/${item}.png"></div>`
+    squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/cafe-garagem/${item}.png"></div>`
     nomes.innerHTML = item
     btn.innerHTML = "Presentear"
     squere.appendChild(nomes)

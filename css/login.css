@@ -127,14 +127,6 @@ h5{
 
 }
 
-@media screen and (max-width:1000px){
-    .saudacoes{
-        display: none;
-
-    }
-
-}
-
 
 @media screen and (max-width:660px){
 
@@ -156,13 +148,6 @@ h5{
         padding: 20px;
         border-radius: 10px;
         position: relative;
-    }
-
-
-    .saudacoes{
-        top: 0px;
-        display: block;
-
     }
 
 }

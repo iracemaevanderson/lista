@@ -12,40 +12,23 @@ firebase.initializeApp(firebaseConfig)
 let bd = firebase.firestore()
 
 
- */
 
 
-/* bd.collection("casamento").doc("disponibilidade").set({
-    "Assadeira Redonda": "Disponível",
-    "Assadeira Quadrada": "Disponível",
-    "coador de café": "Disponível",
-    "colher para sorvete": "Disponível",
-    "Conj de bowls": "Disponível",
-    "Conj de bowls Azul": "Disponível",
-    "Conj colheres de servir": "Disponível",
-    "Conj de copos": "Disponível",
-    "Conj de depósitos": "Disponível",
-    "Conj de espátulas de silicone": "Disponível",
-    "Conj de peneiras": "Disponível",
-    "Conj de sobremesa": "Disponível",
-    "Conj de sobremesa ": "Disponível",
-    "Tapetes para banheiro": "Disponível",
-    "Conj de toalhas": "Disponível",
-    "Conj de toalhas ": "Disponível",
-    "Conj de xícaras": "Disponível",
-    "Conj de xícaras ": "Disponível",
-    "Cuscuzeira": "Disponível",
-    "Forma de pudim": "Disponível",
-    "Formas de bolos": "Disponível",
-    "Frigideira": "Disponível",
-    "Panela de pressão": "Disponível",
-    "Fruteira": "Disponível",
-    "Mantegueira": "Disponível",
-    "Porta vinagre e azeite": "Disponível",
-    "Pratos brancos fundo": "Disponível",
-    "Pratos brancos raso": "Disponível",
-    "Pratos transparentes": "Disponível",
-    "Ralador inox": "Disponível",
-    "Sanduicheira": "Disponível",
-    "Tapetes para banheiro": "Disponível"
+
+bd.collection("casamento").doc("disponibilidade").update({
+    "Alicate RJ45": "Disponível",
+    "Alicate de cerca viva": "Disponível",
+    "Conjunto de Alicates de corte": "Disponível",
+    "Martelo": "Disponível",
+    "Conjunto de Chaves de Precisão": "Disponível",
+    "Conjunto de Chaves tipo L": "Disponível",
+    "Conjunto de Chaves combinadas": "Disponível",
+    "Escada 3 degraus": "Disponível",
+    "Extesão": "Disponível",
+    "Ferro de soda": "Disponível",
+    "Multímetro": "Disponível",
+    "Pasta termica-corsair": "Disponível",
+    "Cabo HDMI": "Disponível",
+    "Chave teste": "Disponível",
+    "Mangueira": "Disponível",
 }) */
