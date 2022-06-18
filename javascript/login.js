@@ -12,10 +12,30 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig)
 let auth = firebase.auth()
 
-
 auth.signOut().then().catch((error)=>{
     console.log(error)
 })
+
+let body = document.getElementsByTagName('body')[0]
+
+
+if(window.screen.width >= 320 && window.screen.width < 1000){
+    body.style.backgroundImage = "url('../pictures/login/320.png')"
+    body.style.backgroundRepeat = "no-repeat"
+    body.style.backgroundSize = "cover"
+}else if(window.screen.width >= 1024 && window.screen.width < 1440){
+    body.style.backgroundImage = "url('../pictures/login/1024.png')"
+    body.style.backgroundRepeat = "no-repeat"
+    body.style.backgroundSize = "cover"
+}else if(window.screen.width >= 1440 && window.screen.width < 1920){
+    body.style.backgroundImage = "url('../pictures/login/1440.png')"
+    body.style.backgroundRepeat = "no-repeat"
+    body.style.backgroundSize = "cover"
+}else{
+    body.style.backgroundImage = "url('../pictures/login/pc.png')"
+    body.style.backgroundRepeat = "no-repeat"
+    body.style.backgroundSize = "cover"
+}
 
 
 function entrar(){

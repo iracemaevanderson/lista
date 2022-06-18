@@ -180,7 +180,6 @@ a:hover{
     .historia{
 
         width: 100%;
-
     }
 
     p{
@@ -204,6 +203,11 @@ a:hover{
 
     .carrusel{
         max-width: 600px;
+
+    }
+
+    p{
+        text-align: center;
 
     }
 

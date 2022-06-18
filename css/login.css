@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: var(--color2);
+/*     background-color: var(--color2); */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -127,15 +127,6 @@ h5{
 
 }
 
-@media screen and (max-width:1000px){
-    .saudacoes{
-        display: none;
-
-    }
-
-}
-
-
 @media screen and (max-width:660px){
 
     .conteiner{
@@ -149,20 +140,13 @@ h5{
     }
 
     .form{
-        width: 95%;
+        width: 85%;
         height: auto;
         background-color: #ffffff83;
         border: solid 2px var(--color3);
         padding: 20px;
         border-radius: 10px;
         position: relative;
-    }
-
-
-    .saudacoes{
-        top: 0px;
-        display: block;
-
     }
 
 }
