@@ -12,7 +12,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig)
 let auth = firebase.auth()
 
-let body = document.getElementsByTagName('body')[0]
+/* let body = document.getElementsByTagName('body')[0]
 
 if(window.screen.width > 320 && window.screen.width < 1000){
     body.style.backgroundImage = "url('../pictures/login/320.png')"
@@ -22,7 +22,7 @@ if(window.screen.width > 320 && window.screen.width < 1000){
     body.style.backgroundImage = "url('../pictures/login/pc.png')"
     body.style.backgroundRepeat = "no-repeat"
     body.style.backgroundSize = "cover"
-}
+} */
 
 auth.signOut().then().catch((error)=>{
     console.log(error)
