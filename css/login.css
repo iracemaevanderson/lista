@@ -17,12 +17,10 @@
     --color4: #ffffff83;
 }
 
-body{
+/* body{
     background-image: url('../pictures/login/pc.png');
 
-/*     background-color: var(--color2);
-    font-family: 'Ubuntu', sans-serif; */
-}
+} */
 
 .saudacoes{
     position: absolute;
@@ -131,16 +129,13 @@ h5{
 
 
 @media screen and (max-width:1400px){
-    body{
+/*     body{
         background-image: url('../pictures/login/720.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-    
-    /*     background-color: var(--color2);
-        font-family: 'Ubuntu', sans-serif; */
     }
-
+ */
 }
 
 @media screen and (max-width:1000px){
@@ -149,15 +144,12 @@ h5{
 
     }
 
-    body{
+/*     body{
         background-image: url('../pictures/login/celular2.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-    
-    /*     background-color: var(--color2);
-        font-family: 'Ubuntu', sans-serif; */
-    }
+    } */
 
 }
 
