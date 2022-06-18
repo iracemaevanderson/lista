@@ -18,6 +18,10 @@
 }
 
 body{
+<<<<<<< Updated upstream
+=======
+    /* background-color: var(--color2); */
+>>>>>>> Stashed changes
     font-family: 'Ubuntu', sans-serif;
 }
 
