@@ -9,13 +9,13 @@
 };
 
 firebase.initializeApp(firebaseConfig)
-let bd = firebase.firestore()
+let bd = firebase.firestore() */
 
 
 
 
 
-bd.collection("casamento").doc("disponibilidade").update({
+/* bd.collection("casamento").doc("acessorios").set({
     "Alicate RJ45": "Disponível",
     "Alicate de cerca viva": "Disponível",
     "Conjunto de Alicates de corte": "Disponível",

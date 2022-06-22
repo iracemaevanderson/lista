@@ -13,23 +13,23 @@ let bd = firebase.firestore()
 let auth = firebase.auth()
 
 
-let itens = 
+let acessorios = 
 ["Alicate RJ45", "Alicate de cerca viva", "Conjunto de Alicates de corte", "Martelo", "Conjunto de Chaves de Precisão",
  "Conjunto de Chaves tipo L","Conjunto de Chaves combinadas", "Escada 3 degraus", "Extesão", "Ferro de soda", "Multímetro",
- "Pasta termica-corsair", "Cabo HDMI", "Chave teste", "Mangueira",
+ "Pasta termica-corsair", "Cabo HDMI", "Chave teste",
 ]
 
 let conteiner = document.querySelector('.container')
 let form = document.querySelector('.conteiner_form')
 
-itens.forEach((item)=>{
+acessorios.forEach((ac)=>{
     let squere = document.createElement('div')
     let btn = document.createElement('button')
     let nomes = document.createElement('h4')
     let disponibilidade = document.createElement('h4')
-    bd.collection("casamento").get().then((itens)=>{
-            itens.forEach((doc)=>{
-            disponibilidade.innerHTML = doc.get(item)
+    bd.collection("casamento").get().then((acessorios)=>{
+            acessorios.forEach((doc)=>{
+                disponibilidade.innerHTML = doc.get(ac)
             if(disponibilidade.innerHTML === "Indisponível"){
                 disponibilidade.style.color = "red"
                 btn.style.display = "none"
@@ -39,8 +39,8 @@ itens.forEach((item)=>{
         })
     })
     squere.classList.add('squere')
-    squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/cafe-garagem/${item}.png"></div>`
-    nomes.innerHTML = item
+    squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/cafe-garagem/${ac}.png"></div>`
+    nomes.innerHTML = ac
     btn.innerHTML = "Presentear"
     squere.appendChild(nomes)
     squere.appendChild(btn)
@@ -50,7 +50,7 @@ itens.forEach((item)=>{
     btn.addEventListener('click', ()=>{
         let presente = document.getElementById('presente')
         let email = document.getElementById('email')
-        presente.value = item
+        presente.value = ac
         presente.disabled = true
         email.value = auth.currentUser.email
         email.disabled = true
@@ -68,9 +68,10 @@ itens.forEach((item)=>{
         form.style.display = "flex"
     })
 
-
-
 })
+
+
+
 
 function enviar_form(){
     let nome = document.getElementById('nome').value
@@ -96,7 +97,7 @@ function enviar_form(){
             telefone: tel
         })
 
-        bd.collection("casamento").doc("disponibilidade").update(
+        bd.collection("casamento").doc("acessorios").update(
             {[presente]: "Indisponível"}
         )
 
