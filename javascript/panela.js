@@ -31,16 +31,18 @@ itens.forEach((item)=>{
     let btn = document.createElement('button')
     let nomes = document.createElement('h4')
     let disponibilidade = document.createElement('h4')
-    bd.collection("casamento").get().then((itens)=>{
-            itens.forEach((doc)=>{
-            disponibilidade.innerHTML = doc.get(item)
-            if(disponibilidade.innerHTML === "Indisponível"){
-                disponibilidade.style.color = "red"
-                btn.style.display = "none"
-            }else{
-                disponibilidade.style.color = "green"
-            }
-        })
+    let panelaRef = bd.collection("casamento").doc("disponibilidade")
+
+    panelaRef.get().then((docItem)=>{
+        disponibilidade.innerHTML = docItem.get(item)
+
+        if(disponibilidade.innerHTML == "Disponível"){
+            disponibilidade.style.color = "green"
+        }else{
+            disponibilidade.style.color = "red"
+            btn.style.display = "none"
+        }
+
     })
     squere.classList.add('squere')
     squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/cha-de-panela/${item}.png"></div>`

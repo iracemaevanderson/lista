@@ -16,7 +16,7 @@ let auth = firebase.auth()
 let acessorios = 
 ["Alicate RJ45", "Alicate de cerca viva", "Conjunto de Alicates de corte", "Martelo", "Conjunto de Chaves de Precisão",
  "Conjunto de Chaves tipo L","Conjunto de Chaves combinadas", "Escada 3 degraus", "Extesão", "Ferro de soda", "Multímetro",
- "Pasta termica-corsair", "Cabo HDMI", "Chave teste",
+ "Pasta termica-corsair", "Cabo HDMI", "Chave teste","Mangueira"
 ]
 
 let conteiner = document.querySelector('.container')
@@ -27,17 +27,20 @@ acessorios.forEach((ac)=>{
     let btn = document.createElement('button')
     let nomes = document.createElement('h4')
     let disponibilidade = document.createElement('h4')
-    bd.collection("casamento").get().then((acessorios)=>{
-            acessorios.forEach((doc)=>{
-                disponibilidade.innerHTML = doc.get(ac)
-            if(disponibilidade.innerHTML === "Indisponível"){
-                disponibilidade.style.color = "red"
-                btn.style.display = "none"
-            }else{
-                disponibilidade.style.color = "green"
-            }
-        })
+
+    let docRef = bd.collection("casamento").doc("acessorios")
+
+    docRef.get().then((doc)=>{
+        disponibilidade.innerHTML = doc.get(ac)
+
+        if(disponibilidade.innerHTML == "Disponível"){
+            disponibilidade.style.color = "green"
+        }else{
+            disponibilidade.style.color = "red"
+            btn.style.display = "none"
+        }
     })
+
     squere.classList.add('squere')
     squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/cafe-garagem/${ac}.png"></div>`
     nomes.innerHTML = ac
