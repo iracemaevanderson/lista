@@ -34,7 +34,7 @@ itens.forEach((item)=>{
     bd.collection("casamento").get().then((itens)=>{
             itens.forEach((doc)=>{
             disponibilidade.innerHTML = doc.get(item)
-            if(disponibilidade.innerHTML == "Indisponível"){
+            if(disponibilidade.innerHTML === "Indisponível"){
                 disponibilidade.style.color = "red"
                 btn.style.display = "none"
             }else{
