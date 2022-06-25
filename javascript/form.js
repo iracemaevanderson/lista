@@ -32,3 +32,10 @@ let bd = firebase.firestore() */
     "Chave teste": "Disponível",
     "Mangueira": "Disponível",
 }) */
+
+/* bd.collection("casamento").doc("acessorios").update({
+    "Lampada led 3 uni": "Disponível"
+
+
+
+}) */

@@ -16,7 +16,7 @@ let auth = firebase.auth()
 let acessorios = 
 ["Alicate RJ45", "Alicate de cerca viva", "Conjunto de Alicates de corte", "Martelo", "Conjunto de Chaves de Precisão",
  "Conjunto de Chaves tipo L","Conjunto de Chaves combinadas", "Escada 3 degraus", "Extesão", "Ferro de soda", "Multímetro",
- "Pasta termica-corsair", "Cabo HDMI", "Chave teste","Mangueira"
+ "Pasta termica-corsair", "Cabo HDMI", "Chave teste","Mangueira", "Lampada led 3 uni"
 ]
 
 let conteiner = document.querySelector('.container')
