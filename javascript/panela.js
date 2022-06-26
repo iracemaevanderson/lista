@@ -16,7 +16,7 @@ let auth = firebase.auth()
 let itens = 
 ["Assadeira Redonda", "Assadeira Quadrada", "coador de café", "colher para sorvete", "Conj de bowls", "Conj de bowls Azul",
  "Conj colheres de servir","Conj de copos", "Conj de depósitos", "Conj de espátulas de silicone", "Conj de peneiras", "Conj de sobremesa",
- "Conj de sobremesa ", "Tapetes para banheiro", "Conj de toalhas", "Conj de toalhas ", "Conj de xícaras", "Conj de xícaras ", "Cuscuzeira",
+ "Conj de sobremesa ", "Conj de toalhas", "Conj de toalhas ", "Conj de xícaras", "Cuscuzeira",
  "Forma de pudim", "Formas de bolos", "Frigideira", "Panela de pressão", "Fruteira", "Mantegueira", "Porta vinagre e azeite", "Pratos brancos fundo",
  "Pratos brancos raso", "Pratos transparentes","Ralador inox","Sanduicheira", "Tapetes para banheiro",
 ]

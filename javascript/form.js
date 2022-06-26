@@ -34,7 +34,7 @@ let bd = firebase.firestore() */
 }) */
 
 /* bd.collection("casamento").doc("acessorios").update({
-    "Lampada led 3 uni": "Disponível"
+    "Lâmpada led 3 uni": "Disponível"
 
 
 
