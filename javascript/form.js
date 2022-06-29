@@ -14,27 +14,18 @@ let bd = firebase.firestore() */
 
 
 
+/* bd.collection("casamento").doc("disponibilidade").update({
 
-/* bd.collection("casamento").doc("acessorios").set({
-    "Alicate RJ45": "Disponível",
-    "Alicate de cerca viva": "Disponível",
-    "Conjunto de Alicates de corte": "Disponível",
-    "Martelo": "Disponível",
-    "Conjunto de Chaves de Precisão": "Disponível",
-    "Conjunto de Chaves tipo L": "Disponível",
-    "Conjunto de Chaves combinadas": "Disponível",
-    "Escada 3 degraus": "Disponível",
-    "Extesão": "Disponível",
-    "Ferro de soda": "Disponível",
-    "Multímetro": "Disponível",
-    "Pasta termica-corsair": "Disponível",
-    "Cabo HDMI": "Disponível",
-    "Chave teste": "Disponível",
-    "Mangueira": "Disponível",
+        "Espatula de silicone": "Disponível",
+        "Ferro de passar roupa": "Disponível",
+        "MOP": "Disponível",
+        "vidrinho para açúcar": "Disponível",
+        "vidrinhos de codimentos": "Disponível"
+
 }) */
 
 /* bd.collection("casamento").doc("acessorios").update({
-    "Lâmpada led 3 uni": "Disponível"
+    "Trena": "Disponível"
 
 
 

@@ -18,7 +18,8 @@ let itens =
  "Conj colheres de servir","Conj de copos", "Conj de depósitos", "Conj de espátulas de silicone", "Conj de peneiras", "Conj de sobremesa",
  "Conj de sobremesa ", "Conj de toalhas", "Conj de toalhas ", "Conj de xícaras", "Cuscuzeira",
  "Forma de pudim", "Formas de bolos", "Frigideira", "Panela de pressão", "Fruteira", "Mantegueira", "Porta vinagre e azeite", "Pratos brancos fundo",
- "Pratos brancos raso", "Pratos transparentes","Ralador inox","Sanduicheira", "Tapetes para banheiro",
+ "Pratos brancos raso", "Pratos transparentes","Ralador inox","Sanduicheira", "Tapetes para banheiro","Espatula de silicone","Ferro de passar roupa","MOP",
+ "vidrinho para açúcar","vidrinhos de codimentos"
 ]
 
 
