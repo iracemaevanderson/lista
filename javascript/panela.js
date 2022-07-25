@@ -1,4 +1,4 @@
-const firebaseConfig = {
+/* const firebaseConfig = {
     apiKey: "AIzaSyAs3ifubNiT_cAbcgX4kTVUu2m_qAHr-T8",
     authDomain: "casamento-e6a52.firebaseapp.com",
     projectId: "casamento-e6a52",
@@ -128,4 +128,4 @@ function fechar(){
         form.style.display = "none"
     }
 
-}
+} */

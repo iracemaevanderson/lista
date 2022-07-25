@@ -38,15 +38,17 @@ function sair(){
 }
 
 function cafe(){
-    if(auth.currentUser.uid == "M4xhDqLn6TPTkglS4fXMWrOvBun2"){
-        window.location.href = "../html/cafe.html"
-    }else{
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Essa janela é direcionada apenas para alguns usuarios!',
-        })
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Este Evento foi finalizado, por gentileza, siga para área de casamento ou ofertas!',
+    })
+}
 
-    }
-
+function panela(){
+    Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Este Evento foi finalizado, por gentileza, siga para área de casamento ou ofertas!',
+    })
 }
