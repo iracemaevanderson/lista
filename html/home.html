@@ -152,7 +152,7 @@
     
     <script>
 
-        if(window.screen.width < 1024){
+        if(window.screen.width <= 768){
             var swiper = new Swiper(".mySwiper", {
                     slidesPerView: 1,
                     spaceBetween: 30,
@@ -168,7 +168,7 @@
                         prevEl: ".swiper-button-prev",
                     },
                 });
-        }else if(window.screen.width >= 1024){
+        }else if(window.screen.width > 768){
             var swiper = new Swiper(".mySwiper", {
                     slidesPerView: 3,
                     spaceBetween: 30,
