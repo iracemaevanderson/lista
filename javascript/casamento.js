@@ -14,7 +14,7 @@ let auth = firebase.auth()
 
 
 let itens = 
-["Air fryer", "Batedeira", "Conjunto de bowls verde", "Conjunto de cobre leito casal bege", "Conjunto de cobre leito casal verde", "Conjunto de colheres de servir",
+["Projetor Full HD (1080p)","Air fryer", "Batedeira", "Conjunto de bowls verde", "Conjunto de cobre leito casal bege", "Conjunto de cobre leito casal verde", "Conjunto de colheres de servir",
 "Conjunto de edredom", "Conjunto de edredom verde", "Conjunto de espatulas de silicone", "Conjunto de lençol casal ", "Conjunto de lençol casal verde", "Conjunto de panelas",
 "Conjunto de pinças", "Conjunto de porcelana","Conjunto de toalhas verde", "Escorredor de louças", "Espremedor de frutas","Faqueiro","Faqueiro preto", "Manta casal verde",
 "MOP", "Soupeira", "cadeira", "cadeira 2"]
@@ -44,7 +44,7 @@ itens.forEach((item)=>{
     })
 
     squere.classList.add('squere')
-    squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/casamento/${item}.png"></div>`
+    squere.innerHTML = `<div class="img"><img class="itens" src="../pictures/casamento/${item}.webp"></div>`
     nomes.innerHTML = item
     btn.innerHTML = "Presentear"
     squere.appendChild(nomes)
