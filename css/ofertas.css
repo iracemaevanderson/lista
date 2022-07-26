@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Kanit&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arvo', serif;
+}
+
+:root{
+    --color0: #ffffff;
+    --color1: #606c38;
+}
+
+body{
+    background-color: var(--color1)!important;
+
+}
+
+.squere{
+    max-width: 60%;
+    height: auto;
+    border: solid 2px var(--color0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #606c38;
+}
+
+.p{
+    margin-top: 30px;
+    color: var(--color0);
+}
+
+ul{
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--color0);
+}
+
+h2{
+    margin-top: 30px ;
+    margin-bottom: 50px;
+}
+
+.formas{
+    border: solid 3px var(--color0);
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
