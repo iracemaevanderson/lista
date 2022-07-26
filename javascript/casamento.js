@@ -17,7 +17,7 @@ let itens =
 ["Air fryer", "Batedeira", "Conjunto de bowls verde", "Conjunto de cobre leito casal bege", "Conjunto de cobre leito casal verde", "Conjunto de colheres de servir",
 "Conjunto de edredom", "Conjunto de edredom verde", "Conjunto de espatulas de silicone", "Conjunto de lençol casal ", "Conjunto de lençol casal verde", "Conjunto de panelas",
 "Conjunto de pinças", "Conjunto de porcelana","Conjunto de toalhas verde", "Escorredor de louças", "Espremedor de frutas","Faqueiro","Faqueiro preto", "Manta casal verde",
-"MOP", "Soupeira"]
+"MOP", "Soupeira", "cadeira", "cadeira 2"]
 
 
 
@@ -72,6 +72,10 @@ itens.forEach((item)=>{
         
         form.style.display = "flex"
     })
+
+/*     bd.collection("casamentoOficial").doc("casamentoList").update({
+        [item]: "Disponível"
+    }) */
 })
 
 
